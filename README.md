@@ -1,6 +1,6 @@
-#People Directory
+# People Directory
 
-#Project description:
+# Project description:
 Provide help on people directory
 
 1.	Add Person (id, firstName, lastName)
@@ -14,11 +14,11 @@ Provide help on people directory
 
 
 
-#How to Run the project:
+# How to Run the project:
 
-##Pre-requisities
+## Pre-requisities
 
-####Java SE Development Kit 8 (1.8.0) or newer
+#### Java SE Development Kit 8 (1.8.0) or newer
 
 Run this command in your terminal to see what version you have setup
 
@@ -28,7 +28,7 @@ javac -version
 
 
 
-####Maven 3.0 or newer
+#### Maven 3.0 or newer
 
 Run this command in your terminal to see what version you have setup
 
@@ -127,30 +127,30 @@ Sample output Data:
 
 
 ---
-###Code includes:
+### Code includes:
 
-####Database:
+#### Database:
 H2 - in memory database
 
-####Basic validations:
+#### Basic validations:
 checks if the input data is valid for person
 checks if the person exists before updating or deleting
 checks if the person exists before adding address
 checks if input data is valid for address.
 
-####TestCases: UNIT Tests with mockito
+#### TestCases: UNIT Tests with mockito
 Positive/negative:
 checks if each of the above mentioned operations are working for a valid input
 checks if each of the above mentioned operations fails when input is invalid
 checks if the operations fails when the given user is not found.
 
-####Exceptions:
+#### Exceptions:
 InvalidInputException - is thrown when the input is not valid.
 NotFoundException - is thrown when the person or address is not found.
 ServiceException - is thrown when we see a server error (error while talking to DB)
 
 
-#What can be improved here:
+# What can be improved here:
 Add front end for better experience
 Add Authorization and authentication for restapis.
 Validations can be improved and error responses can be made better.
